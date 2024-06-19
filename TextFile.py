@@ -1,0 +1,6 @@
+about_me=input()
+about_me_2=about_me.split()
+file_about_me_2=open('file_about_me_2','a')
+file_about_me_2.writelines(about_me_2)
+file_about_me_2.close()
+print(about_me_2)
